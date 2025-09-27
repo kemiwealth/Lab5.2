@@ -89,7 +89,7 @@ formvar.addEventListener("submit", function (e){
 
     // check if all fields are valid
     if ( 
-        usernameError,textContent === "" &&
+        usernameError.textContent === "" &&
         emailError.textContent === "" &&
         passwordError.textContent === "" &&
         confirmPasswordError.textContent === "" 
