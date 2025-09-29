@@ -96,7 +96,8 @@ formvar.addEventListener("submit", function (e){
     ) {
         // if success show message, save username, rest the form
         alert("Registration successful!");
-        localStorage.setItem("username", usernameInput)
+        localStorage.setItem("username", usernameInput.value)
+        localStorage.setItem("email", emailInput.value)
         form.reset();
     } else {
 
